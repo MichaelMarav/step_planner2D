@@ -1,0 +1,6 @@
+robot_name: "nao"
+num_steps: 7 # Number of steps per keystroke
+velocity_x: 0.5
+velocity_y: 0.5
+angular_velocity: 0.3
+ros_rate_value: 100 # HZ

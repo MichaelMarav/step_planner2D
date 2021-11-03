@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="raisim_teleop" type="nao_raisim_teleop" name="nao_teleop" output="screen">
+    <rosparam file="$(find raisim_teleop)/config/nao_teleop_params.yaml" command="load"/>
+  </node>
+</launch>

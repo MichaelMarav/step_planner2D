@@ -1,0 +1,6 @@
+robot_name: "atlas"
+num_steps: 10 # Number of steps per keystroke
+velocity_x: 0.5
+velocity_y: 0.5
+angular_velocity: 0.5
+ros_rate_value: 1000 # ros::rate HZ
